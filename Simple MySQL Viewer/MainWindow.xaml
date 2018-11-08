@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Simple_MySQL_Viewer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+	<StackPanel>
+		<GroupBox Header="Login data">
+			<StackPanel Orientation="Horizontal">
+				<GroupBox Header="Address">
+					<TextBox Name="AddressField" Width="128" />
+				</GroupBox>
+				<GroupBox Header="Username">
+					<TextBox Name="UsernameField" Width="128" />
+				</GroupBox>
+				<GroupBox Header="Password">
+					<TextBox Name="PasswordField" Width="128" />
+				</GroupBox>
+				<GroupBox Header="Table">
+					<TextBox Name="TableField" Width="128" />
+				</GroupBox>
+				<GroupBox BorderThickness="0" Header="">
+
+					<Button Name="SubmitButton" Content="Submit" Click="SubmitButton_Click"  />
+				</GroupBox>
+			</StackPanel>
+		</GroupBox>
+		<GroupBox Header="Output">
+			<DataGrid Name="OutputGrid" ItemsSource="{Binding }" />
+		</GroupBox>
+	</StackPanel>
 </Window>
