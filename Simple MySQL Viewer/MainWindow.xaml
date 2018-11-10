@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Simple_MySQL_Viewer"
         mc:Ignorable="d"
-        Title="Simple MySQL Viewewr" Width="1024" Height="512">
+        Title="Simple MySQL Viewewr" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
 	<StackPanel>
 		<GroupBox Header="Login data">
 			<StackPanel Orientation="Horizontal">
@@ -25,13 +25,17 @@
 					<TextBox Name="PasswordField" Width="128" />
 				</GroupBox>
 				<GroupBox BorderThickness="0" Header="">
-
 					<Button Name="SubmitButton" Content="Submit" Click="SubmitButton_Click"  />
 				</GroupBox>
 			</StackPanel>
 		</GroupBox>
-		<GroupBox Header="Output">
-			<DataGrid Name="OutputGrid" ItemsSource="{Binding }" />
+		<GroupBox Header="Output" >
+			<DataGrid Name="OutputGrid" Width="1024" Height="512" ItemsSource="{Binding }" />
 		</GroupBox>
+		<StatusBar>
+			<StatusBarItem>
+				<Label Name="OutputCount" />
+			</StatusBarItem>
+		</StatusBar>
 	</StackPanel>
 </Window>

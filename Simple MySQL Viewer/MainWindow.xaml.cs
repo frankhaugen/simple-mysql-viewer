@@ -63,6 +63,8 @@ namespace Simple_MySQL_Viewer
 				mySqlDataAdapter.Fill(dataTable);
 
 				OutputGrid.DataContext = dataTable;
+
+				OutputCount.Content = "Number of entries: " + dataTable.Rows.Count;
 			}
 			catch (Exception ex)
 			{
