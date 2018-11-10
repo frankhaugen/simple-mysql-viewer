@@ -18,7 +18,7 @@ namespace Simple_MySQL_Viewer
 			InitializeComponent();
 
 			// Check if file with settings exist and fill in MySQL information before running
-			// Line ending separated in this sequence: Server, Database, Username, Password
+			// Line ending separated in this sequence: Server, Database, Table, Username, Password
 			if (File.Exists(SettingsFile))
 			{
 				try
