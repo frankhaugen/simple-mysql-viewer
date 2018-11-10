@@ -2,4 +2,4 @@
 A simple viewer of a table in a mysql database
 
 ### Image
-![Screenshot](simple-mysql-viewer/Graphics/Screenshot01_ver_1_0.png)
+![Screenshot](https://github.com/frankhaugen/simple-mysql-viewer/raw/master/Graphics/Screenshot01_ver_1_0.png)
