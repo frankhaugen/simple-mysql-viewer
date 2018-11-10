@@ -9,17 +9,20 @@
 	<StackPanel>
 		<GroupBox Header="Login data">
 			<StackPanel Orientation="Horizontal">
-				<GroupBox Header="Address">
-					<TextBox Name="AddressField" Width="128" />
+				<GroupBox Header="Server">
+					<TextBox Name="ServerField" Width="128" />
+				</GroupBox>
+				<GroupBox Header="Database">
+					<TextBox Name="DatabaseField" Width="128" />
+				</GroupBox>
+				<GroupBox Header="Table">
+					<TextBox Name="TableField" Width="128" />
 				</GroupBox>
 				<GroupBox Header="Username">
 					<TextBox Name="UsernameField" Width="128" />
 				</GroupBox>
 				<GroupBox Header="Password">
 					<TextBox Name="PasswordField" Width="128" />
-				</GroupBox>
-				<GroupBox Header="Table">
-					<TextBox Name="TableField" Width="128" />
 				</GroupBox>
 				<GroupBox BorderThickness="0" Header="">
 
