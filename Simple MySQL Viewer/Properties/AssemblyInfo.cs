@@ -8,9 +8,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Simple MySQL Viewer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A very simple MySQL table viewer, (no fancy functionality included)")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Frank R. Haugen")]
 [assembly: AssemblyProduct("Simple MySQL Viewer")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]

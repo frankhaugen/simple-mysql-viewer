@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Simple_MySQL_Viewer"
         mc:Ignorable="d"
-        Title="MainWindow" SizeToContent="WidthAndHeight">
+        Title="Simple MySQL Viewewr" Width="1024" Height="512">
 	<StackPanel>
 		<GroupBox Header="Login data">
 			<StackPanel Orientation="Horizontal">
